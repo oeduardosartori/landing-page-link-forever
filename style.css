@@ -22,4 +22,8 @@
     --size-medium: 0.80rem;
     --size-large: 1.5rem;
   }
+
+  body {
+    background-image: url('');
+  }
   
