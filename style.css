@@ -1,2 +1,20 @@
-// Enrique Sartori responsável pelo desenvolvimento
-// teste
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+}
+
+:root {
+    /* Fonte padrão */
+    --font-primary: font-family: 'Monomaniac One', sans-serif;
+    /* Variaves de cores */
+    --color-primary: #0B0B0B;
+    --color-secondary: #FDD73D;
+    --color-tertiary:#8B8989;
+    /* Tamanho de fonte */
+    --size-small: 0.60rem;
+    --size-medium: 0.80rem;
+    --size-large: 1.5rem;
+  }
+  
