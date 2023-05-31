@@ -91,6 +91,7 @@
 
     /* Rodapé */
     .rodape {
+      color: var(--color-secondary);
       text-align: center;
       padding: 20px;
     }
