@@ -73,7 +73,9 @@
     .apresentacao_buttons li a {
       display: block;
       text-align: center;
-      margin-bottom: 10px;
+      text-decoration: none;  
+      border-radius: 8px;
+      background: var(--color-secondary);
     }
     
     .apresentacao_buttons li p {
