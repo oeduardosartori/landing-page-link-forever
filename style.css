@@ -70,12 +70,14 @@
       margin: 0 10px;
     }
 
-    .link_discord,
-    .link_whatsapp,
-    .link_instagram {
-      text-align: grid;
-      display: flex;
-      justify-content: center;
+    .apresentacao_buttons li a {
+      display: block;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    
+    .apresentacao_buttons li p {
+      text-align: center;
     }
 
     /* Imagens */
