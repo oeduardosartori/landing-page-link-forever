@@ -72,9 +72,16 @@
 
     .apresentacao_buttons li a {
       display: block;
+      margin-bottom: 110px;
       text-align: center;
-      text-decoration: none;  
+      text-decoration: none;
+      color: var(--color-primary);
+      font-size: var(--size-large);
+      margin-left: 80px;
       border-radius: 8px;
+      width: 194px;
+      height: 48px;
+      position: absolute;
       background: var(--color-secondary);
     }
     
