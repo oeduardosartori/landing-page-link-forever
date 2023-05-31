@@ -1,17 +1,22 @@
+/* Importação da fonte externa */
 @import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
 
+/* Reset de estilos gerais */
 * {
     margin: 0;
     border: 0;
 }
 
+/* Definição das variáveis de raiz */
 :root {
     /* Fonte padrão */
     --font-primary: font-family: 'Monomaniac One', sans-serif;
+
     /* Variaves de cores */
     --color-primary: #0B0B0B;
     --color-secondary: #FDD73D;
     --color-tertiary:#8B8989;
+
     /* Tamanho de fonte */
     --size-small: 0.60rem;
     --size-medium: 0.80rem;
