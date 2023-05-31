@@ -11,7 +11,7 @@
 /* Definição das variáveis de raiz */
 :root {
     /* Fonte padrão */
-    --font-primary: font-family: 'Monomaniac One', sans-serif;
+    --font-primary: 'Monomaniac One', sans-serif;
 
     /* Variaves de cores */
     --color-primary: #0b0b0b;
@@ -26,28 +26,74 @@
   
   @media (max-width: 1080px) {
     body {
+        display: grid;
         font-family: var(--font-primary);
         line-height: 1.5;
+        color: var(--color-tertiary);
         background-color: var(--color-primary);
       }
-     
+
+    /* Cabeçalho */
     .cabecalho_logo {
-        display: block;
-        padding: 20px;
-        margin-left: auto;
-        margin-right: auto;
+      text-align: center;
+      padding: 20px;
     }
 
+    /* Conteúdo principal */
     .container {
-        padding: 10px;
-        display: grid;
-        grid-template-columns: repeat(4, auto);
-        grid: gap 20px;
-        background-image: url('/assets/Lyon-esquerda.png');
-        background-repeat: no-repeat;
-        background-position: left top, right top;
-        background-size: auto, auto;
-}
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      display: grid;
+      //grid-template-columns: repeat(4, auto);
+      grid-gap: 20px;
+      background-image: url('/assets/Lyon-esquerda.png');
+      background-repeat: no-repeat;
+      background-position: left top, right top;
+      background-size: auto, auto;
+    }
+
+    /* Explicação */
+    .explication {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    /* Navegação */
+    .apresentacao_buttons {
+      list-style: none;
+      display: grid;
+      justify-content: center;
+    }
+
+    .apresentacao_buttons li {
+      margin: 0 10px;
+    }
+
+    .link_discord,
+    .link_whatsapp,
+    .link_instagram {
+      text-align: grid;
+      display: flex;
+      justify-content: center;
+    }
+
+    /* Imagens */
+    .link_img {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .link_img a {
+      display: inline-block;
+      margin: 0 10px;
+    }
+
+    /* Rodapé */
+    .rodape {
+      text-align: center;
+      padding: 20px;
+    }
   }
 
   
