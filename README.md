@@ -28,7 +28,7 @@ O rodapé exibe o nome dos colaboradores do projeto, Eduardo e Enrique Sartori, 
 
 ## Visualização
 
-Você pode visualizar a landing page clicando [aqui](https://exemplo.com/landing-page).
+Você pode visualizar a landing page clicando [aqui](https://landing-page-link-forever.vercel.app/).
 
 ## Instruções de Uso
 
