@@ -19,10 +19,11 @@
     --color-tertiary:#8B8989;
 
     /* Tamanho de fonte */
-    --size-small: 0.60rem;
-    --size-medium: 0.80rem;
-    --size-large: 1.5rem;
+    --size-small: 0.60rem;    /* 9.6px */
+    --size-medium: 0.80rem;   /* 12.8px */
+    --size-large: 1.5rem;     /* 24px */
   }
+
   
   @media (max-width: 1080px) {
     body {
@@ -36,75 +37,76 @@
     /* Cabeçalho */
     .cabecalho_logo {
       text-align: center;
-      padding: 20px;
+      padding: 0px 20px 5px 20px;
     }
 
     /* Conteúdo principal */
     .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 20px;
+      padding: 5px 20px 5px 20px;
       display: grid;
-      //grid-template-columns: repeat(4, auto);
-      grid-gap: 20px;
-      background-image: url('/assets/Lyon-esquerda.png');
+      background-image: url('/assets/Lyon-esquerda.png'), url('/assets/Lyon-direita.png');
       background-repeat: no-repeat;
-      background-position: left top, right top;
+      background-position: left top, bottom right;
       background-size: auto, auto;
     }
 
     /* Explicação */
     .explication {
       text-align: center;
+      font-size: var(--size-medium);
       margin-bottom: 20px;
     }
 
     /* Navegação */
     .apresentacao_buttons {
-      list-style: none;
       display: grid;
-      justify-content: center;
-    }
-
-    .apresentacao_buttons li {
-      margin: 0 10px;
+      list-style: none;
+      text-align: center;
+      padding: 20px 0px 20px 0px;
     }
 
     .apresentacao_buttons li a {
-      display: block;
-      margin-bottom: 110px;
-      text-align: center;
+      display: flex;
+      align-items: center;
       text-decoration: none;
       color: var(--color-primary);
       font-size: var(--size-large);
-      margin-left: 80px;
+      background: var(--color-secondary);
       border-radius: 8px;
       width: 194px;
       height: 48px;
-      position: absolute;
-      background: var(--color-secondary);
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .apresentacao_buttons img {
+      position: relative;
+      left: 0;
+      padding: 10px 5px 10px 30px;
     }
     
     .apresentacao_buttons li p {
-      text-align: center;
+      font-size: var(--size-small);
+      padding:7px 83px 21px 83px;
     }
 
     /* Imagens */
     .link_img {
       text-align: center;
-      margin-top: 20px;
+      padding: 20px 0px 1px 0px;
     }
 
     .link_img a {
       display: inline-block;
-      margin: 0 10px;
+      margin: 3px;
     }
 
     /* Rodapé */
     .rodape {
       color: var(--color-secondary);
+      font-size: var(--size-small);
       text-align: center;
-      padding: 20px;
+      padding: 5px;
     }
   }
 
