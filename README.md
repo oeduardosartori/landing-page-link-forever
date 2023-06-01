@@ -2,6 +2,8 @@
 
 Este repositório contém uma landing page chamada "Link Forever". A página foi desenvolvida para fornecer orientação, recursos úteis e feedback construtivo para desenvolvedores, bem como oferecer uma comunidade engajada para gamers compartilharem experiências.
 
+Projeto desenvolvido para acesso em smartphones
+
 ## Descrição
 
 A landing page "Link Forever" é uma página web responsiva desenvolvida com HTML, CSS e JavaScript. Ela apresenta um design moderno e intuitivo, com diferentes seções que destacam os recursos e benefícios do projeto.
