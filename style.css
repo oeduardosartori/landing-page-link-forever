@@ -13,101 +13,97 @@
     /* Fonte padrão */
     --font-primary: 'Monomaniac One', sans-serif;
 
-    /* Variaves de cores */
+    /* Variáveis de cores */
     --color-primary: #0b0b0b;
     --color-secondary: #FDD73D;
-    --color-tertiary:#8B8989;
+    --color-tertiary: #8B8989;
 
     /* Tamanho de fonte */
-    --size-small: 0.60rem;    /* 9.6px */
+    --size-small: 10px;    /* 9.6px */
     --size-medium: 0.80rem;   /* 12.8px */
     --size-large: 1.5rem;     /* 24px */
-  }
+}
 
-  
-  @media (max-width: 1080px) {
+@media (max-width: 1080px) {
     body {
         display: grid;
         font-family: var(--font-primary);
         line-height: 1.5;
         color: var(--color-tertiary);
         background-color: var(--color-primary);
-      }
+    }
 
     /* Cabeçalho */
     .cabecalho_logo {
-      text-align: center;
-      padding: 0px 20px 5px 20px;
+        text-align: center;
+        padding: 0px 20px 5px;
     }
 
     /* Conteúdo principal */
     .container {
-      padding: 5px 20px 5px 20px;
-      display: grid;
-      background-image: url('/assets/Lyon-esquerda.png'), url('/assets/Lyon-direita.png');
-      background-repeat: no-repeat;
-      background-position: left top, bottom right;
-      background-size: auto, auto;
+        padding: 5px 20px;
+        display: grid;
+        background-image: url('/assets/Lyon-esquerda.png'), url('/assets/Lyon-direita.png');
+        background-repeat: no-repeat;
+        background-position: left top, bottom right;
+        background-size: auto;
     }
 
     /* Explicação */
     .explication {
-      text-align: center;
-      font-size: var(--size-medium);
-      margin-bottom: 20px;
+        text-align: center;
+        font-size: var(--size-medium);
+        margin-bottom: 20px;
     }
 
     /* Navegação */
     .apresentacao_buttons {
-      display: grid;
-      list-style: none;
-      text-align: center;
-      padding: 20px 0px 20px 0px;
+        display: grid;
+        list-style: none;
+        text-align: center;
+        padding: 20px 0;
     }
 
     .apresentacao_buttons li a {
-      display: flex;
-      align-items: center;
-      text-decoration: none;
-      color: var(--color-primary);
-      font-size: var(--size-large);
-      background: var(--color-secondary);
-      border-radius: 8px;
-      width: 194px;
-      height: 48px;
-      margin-left: auto;
-      margin-right: auto;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--color-primary);
+        font-size: var(--size-large);
+        background: var(--color-secondary);
+        border-radius: 8px;
+        width: 194px;
+        height: 48px;
+        margin: 0 auto;
     }
 
     .apresentacao_buttons img {
-      position: relative;
-      left: 0;
-      padding: 10px 5px 10px 30px;
+        position: relative;
+        left: 0;
+        padding: 10px 5px 10px 30px;
     }
     
     .apresentacao_buttons li p {
-      font-size: var(--size-small);
-      padding:7px 83px 21px 83px;
+        font-size: var(--size-small);
+        padding: 7px 83px 21px;
     }
 
     /* Imagens */
     .link_img {
-      text-align: center;
-      padding: 20px 0px 1px 0px;
+        text-align: center;
+        padding: 20px 0 1px;
     }
 
     .link_img a {
-      display: inline-block;
-      margin: 3px;
+        display: inline-block;
+        margin: 3px;
     }
 
     /* Rodapé */
     .rodape {
-      color: var(--color-secondary);
-      font-size: var(--size-small);
-      text-align: center;
-      padding: 5px;
+        color: var(--color-secondary);
+        font-size: var(--size-small);
+        text-align: center;
+        padding: 5px;
     }
-  }
-
-  
+}
